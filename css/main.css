@@ -59,7 +59,7 @@ h2{
 }
 
 #how{
-	height:100vh;
+	/*height:100vh;*/
 	width:100vw;
 	background:white;
 	text-align:center;
@@ -95,6 +95,58 @@ h2{
 	padding-top:2.5%;
 	padding-bottom:5%;
 }
+
+.feature-tile{
+	width:33%;
+	height:50vh;
+	/*border-top:solid black 1px;*/
+	display:inline-block;
+	padding-top:25px;
+}
+
+.feature-tile h3{
+	color:#666666;
+}
+
+.emphasize{
+	font-size:500%;
+	font-family:'Oswald', sans-serif;
+}
+
+.feature-tile-2{
+	width:49%;
+	height:30vh;
+	/*border-top:solid black 1px;*/
+	display:inline-block;
+	padding-top:25px;
+}
+
+.container{
+	margin-top:5%;
+	margin-bottom:5%;
+	width:100vw;
+}
+
+#ncr{
+	padding-top:10px;
+	background:url(../images/mm.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#factors{
+	width:100vw;
+	background:white;
+	text-align:center;
+	font-family:'Open-Sans', sans-serif;
+	padding-top:2.5%;
+	padding-bottom:5%;
+}
+
+#factors h5{
+	margin-bottom:25px;
+}
+
 
 video#bgvid { 
 	position:fixed;
