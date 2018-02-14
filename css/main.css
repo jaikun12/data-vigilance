@@ -185,3 +185,58 @@ video#bgvid {
     /*background: url(polina.jpg) no-repeat;*/
     background-size: cover; 
 }
+
+@media only screen and (max-width: 768px){
+	#title{
+	border:solid #EEE30E 10px;
+	width:100%;
+	padding:10px;
+	margin:0 auto;
+	color:black;
+	}
+	
+	.feature-tile{
+	width:100%;
+	height:50vh;
+	/*border-top:solid black 1px;*/
+	display:inline-block;
+	padding-top:25px;
+	}
+
+	#ncr{
+	padding-top:10px;
+	background:none;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+
+	.lg-img{
+	max-width:100%;
+	}
+
+	.feature-tile-2{
+	width:100%;
+	height:30vh;
+	/*border-top:solid black 1px;*/
+	display:inline-block;
+	padding-top:25px;
+	}
+
+	#factors h3{
+	margin-bottom:25px;
+	max-width:80%;
+	margin:0 auto;
+	}
+
+
+	#how{
+	/*height:100vh;*/
+	width:100vw;
+	background:white;
+	text-align:center;
+	font-family:'Open-Sans', sans-serif;
+	padding-top:40%;
+	padding-bottom:20%;
+	}
+
+}
